@@ -1,0 +1,3 @@
+C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/CMakeFiles/ITB_Nucleo_configuration.elf.dir
+C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/CMakeFiles/rebuild_cache.dir

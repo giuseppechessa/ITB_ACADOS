@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ITB_Nucleo_configuration"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITB_Nucleo_configuration.elf">
+				<Option output="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/ITB_Nucleo_configuration.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F767xx"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Inc"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/external/hpipm/include"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/interfaces"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/external"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/external/blasfeo/include"/>
+					<Add directory="C:\Users\giuse\scoop\apps\gcc\current\include"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITB_Nucleo_configuration.elf"/>
+					<CompileFile command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITB_Nucleo_configuration.elf/fast">
+				<Option output="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/ITB_Nucleo_configuration.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F767xx"/>
+					<Add option="-DDEBUG"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Inc"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Device/ST/STM32F7xx/Include"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/external/hpipm/include"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/interfaces"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/external"/>
+					<Add directory="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados/external/blasfeo/include"/>
+					<Add directory="C:\Users\giuse\scoop\apps\gcc\current\include"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\users\giuse\scoop\apps\gcc-arm-none-eabi\current\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITB_Nucleo_configuration.elf/fast"/>
+					<CompileFile command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/giuse/scoop/shims/make.exe -f &quot;C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_can.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_cortex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_dma_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_flash_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_gpio_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_i2c_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pwr_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_spi_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/STM32F767ZITX_FLASH.ld">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/acados_solver_dt_model.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/adc.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/can.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/dma.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/gpio.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/main.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/spi.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/stm32f7xx_hal_msp.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/stm32f7xx_it.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/syscalls.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/sysmem.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/system_stm32f7xx.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/tim.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Src/usart.c">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/Startup/startup_stm32f767zitx.s">
+			<Option target="ITB_Nucleo_configuration.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/giuse/Desktop/Timing/Prova/ITB_Nucleo_configuration/acados.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
